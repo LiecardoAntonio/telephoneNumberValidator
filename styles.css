@@ -36,6 +36,7 @@ body {
   height: 70vh;
   border-radius: 15px;
   padding-top: 0.5rem;
+  width: 100%;
 }
 
 #camera {
@@ -97,7 +98,25 @@ body {
   background-color: gray;
   width: 6rem;
   height: 1.4rem;
+  border-radius: 2px;
 }
 
+@media only screen and (max-height: 500px) {
+  p {
+    margin: 0;
+  }
 
+  #title {
+    line-height: 0;
+  }
+
+  #phone {
+    background-color: black;
+    width: 20vw;
+    height: 80vh;
+    border-radius: 15px;
+    padding-top: 0.5rem;
+    width: 100%;
+  }
+}
 
